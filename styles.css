@@ -1,0 +1,190 @@
+html{
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    background-color: #f6f6f6;
+    font-family: 'Inter';
+}
+.navbar{
+    display: flex;
+    width: auto;
+    height: 15vh;
+    background: #CBD0CC;
+    justify-content: space-between;
+    align-items: center;
+}
+.navbar h1{
+    width: 50%;
+    text-align: center;
+}
+.navbtn{
+    width: 20%;
+    border-radius: 16px;
+    height: 100%;
+    font-weight: 500;
+    transition: all 0.5s ease;
+}
+.navbtn a{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navbtn:hover{
+    box-shadow: 0 2px 4px black;
+    border-bottom: none;
+}
+.navbtn:hover a{
+    color: #7E7B52;
+    font-weight: 600;
+}
+#hireme{
+    background-color: #7E7B52;
+}
+#hireme:hover a{
+    color: black;
+}
+.navbar a{
+    text-decoration: none;
+    color: black;
+}
+.navbar ul{
+    list-style: none;
+    display: flex;
+    width: 50%;
+    justify-content: space-evenly;
+    height: 50%;
+}
+.navbar img{
+    width: 75px;
+    height: auto;
+}
+.aboutme{
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    height: 85vh;
+    width: 100%;
+}
+.description{
+    display: flex;
+    width: 50%;
+    align-items: center;
+    font-size: 16px;
+    justify-content: center;
+    text-align: start;
+    margin-right: 70px;
+}
+.flag{
+    width: 16px;
+    position: relative;
+    right: 280px;
+    bottom: 33.5px;
+}
+
+.wavinghand svg{
+    rotate: 45deg;
+    stroke: black;
+    fill: bisque;
+}
+.job{
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+.wavinghand{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: fit-content;
+    margin-right: 20px;
+    width: fit-content;
+    height: fit-content;
+
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+}
+.left h1{
+    width: fit-content;
+}
+.right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    height: 80%;
+}
+.right img{
+    width: 256px;
+}
+.icon svg{
+    width: 32px;
+}
+.techstacklist{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.techstacklist li:nth-child(3){
+    border-left: 2px solid white;
+}
+.techstacklist li:nth-child(5){
+    border-left: 2px solid white;
+}
+.techstack{
+    background: #CBD0CC;
+    width: 100%;
+    height: 20vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.icon svg{
+    width: 128px;
+    height: 128px;
+}
+.back-to-top{
+    z-index: 99;
+    position: fixed;
+    left: 90vw;
+    top: 37.5vw;
+    border: none;
+    outline: none;
+    border-radius: 360px;
+    width: 64px;
+    cursor: pointer;
+    height: 64px;
+    background: #7E7B52;
+    display: none;
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.5s ease;
+}
+.back-to-top svg{
+    transition: all 0.5s ease;
+    border-radius: 360px;
+    width: 64px;
+    height: 64px;
+    position: fixed;
+    top: 37.5vw;
+    left: 90vw;
+}
+.back-to-top :hover{
+    transition: all 0.5s ease;
+    box-shadow: 0px 4px 4px black;
+    position: fixed;
+    top: 37.5vw;
+    left: 90vw;
+}
