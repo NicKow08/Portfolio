@@ -67,8 +67,26 @@ body{
     display: flex;
     align-items: start;
     justify-content: center;
-    height: 85vh;
+    height: 100vh;
     width: 100%;
+    background-image: url("assets/Laptop_Img.jpeg");
+    background-repeat: no-repeat;
+    background-size: 50%, 100%;
+}
+.aboutme-links{
+    display: flex;
+    width: 12.5%;
+    justify-content: space-between;
+    margin-right: 305px;
+    margin-top: -50px;
+}
+.website-img-link{
+    transition: all 0.5s ease;
+    box-shadow: 0px 0px 0px black;
+}
+.website-img-link :hover{
+    transition: all 0.5s ease;
+    box-shadow: 0px 2px 4px black;
 }
 .description{
     display: flex;
@@ -187,4 +205,73 @@ body{
     position: fixed;
     top: 37.5vw;
     left: 90vw;
+}
+.projects{
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 100vh;
+    gap: 2px;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.project{
+    width: 95%;
+    height: fit-content;
+    overflow: hidden;
+    display: flex;
+    border-radius: 24px;
+    background: #CBD0CC;
+    padding: 8px;
+}
+.project img{
+    width: 100%;
+    height: 100%;
+    border-radius: 16px;
+}
+.project-desc{
+    width: 50%;
+    padding-left: 8px;
+}
+.project-tech svg{
+    width: 30%;
+    height: 33%;
+    transition: all 0.5s ease;
+}
+.project-tech svg:hover{
+    box-shadow: 0px 2px 4px black;
+}
+.project-section{
+    text-align: center;
+}
+.project-links{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.github-icon{
+    opacity: 0.5;
+    font-size: 32px;
+    color: #7E7B52;
+    transition: all 0.5s ease;
+}
+#aboutme-link{
+    color: #f6f6f6;
+}
+.link-icon{
+    opacity: 0.5;
+    font-size: 32px;
+    color: #7E7B52;
+    transition: all 0.5s ease;
+}
+.link-icon:hover{
+    opacity: 0.8;
+}
+.github-icon:hover{
+    opacity: 0.8;
+}
+.whitetxt{
+    color: #f6f6f6;
 }
